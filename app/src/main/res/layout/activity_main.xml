@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.davids.android.quizapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Pokemon Quiz"
+        android:gravity="center_horizontal"
+        android:textSize="45sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="Question 1: Who is the No.1 pokemon in the Pokedex?"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/pikachu_radio_button"
+                style="@style/RadioButtonLayout"
+                android:text="Pikachu"
+
+                />
+
+            <RadioButton
+                android:id="@+id/bulbasaur_radio_button"
+                style="@style/RadioButtonLayout"
+                android:text="Bulbasaur"
+
+                />
+
+            <RadioButton
+                android:id="@+id/mewtwo_radio_button"
+                style="@style/RadioButtonLayout"
+                android:text="Mewtwo"
+
+                />
+
+            <RadioButton
+                android:id="@+id/eevee_radio_button"
+                style="@style/RadioButtonLayout"
+                android:text="Eevee"
+
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="Question 2: What type of pokemon is Pikachu?"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/fire_radio_button"
+                style="@style/RadioButtonLayout"
+                android:text="Fire"
+
+                />
+
+            <RadioButton
+                android:id="@+id/normal_radio_button"
+                style="@style/RadioButtonLayout"
+                android:text="Normal"
+
+                />
+
+            <RadioButton
+                android:id="@+id/ghost_radio_button"
+                style="@style/RadioButtonLayout"
+                android:text="Ghost"
+
+                />
+
+            <RadioButton
+                android:id="@+id/electricity_radio_button"
+                style="@style/RadioButtonLayout"
+                android:text="Electricity"
+
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="Question 3: Which of the following 2 pokemon are fire type?"/>
+
+        <CheckBox
+            android:id="@+id/charmander_check_box"
+            style="@style/CheckBoxLayout"
+            android:text="Charmander"/>
+
+        <CheckBox
+            android:id="@+id/weedle_check_box"
+            style="@style/CheckBoxLayout"
+            android:text="Weedle"
+            />
+
+        <CheckBox
+            android:id="@+id/squirtle_check_box"
+            style="@style/CheckBoxLayout"
+            android:text="Squirtle"/>
+
+        <CheckBox
+            android:id="@+id/magmar_check_box"
+            style="@style/CheckBoxLayout"
+            android:text="Magmar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="Question 4: Which of the following 2 pokemon can fly?"/>
+
+        <CheckBox
+            android:id="@+id/paras_check_box"
+            style="@style/CheckBoxLayout"
+            android:text="Paras"/>
+
+        <CheckBox
+            android:id="@+id/pidgeot_check_box"
+            style="@style/CheckBoxLayout"
+            android:text="Pidgeot"
+            />
+
+        <CheckBox
+            android:id="@+id/charizard_check_box"
+            style="@style/CheckBoxLayout"
+            android:text="Charizard"/>
+
+        <CheckBox
+            android:id="@+id/machomp_check_box"
+            style="@style/CheckBoxLayout"
+            android:text="Machomp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="Question 5: Which pokemon was Ash Kethums first pokemon?"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/bulbasaur_one_radio_button"
+            style="@style/RadioButtonLayout"
+            android:text="Bulbasaur"
+
+            />
+
+        <RadioButton
+            android:id="@+id/charmander_one_radio_button"
+            style="@style/RadioButtonLayout"
+            android:text="Charmander"
+
+            />
+
+        <RadioButton
+            android:id="@+id/squirtle_one_radio_button"
+            style="@style/RadioButtonLayout"
+            android:text="Squirtle"
+
+            />
+
+        <RadioButton
+            android:id="@+id/pikachu_one_radio_button"
+            style="@style/RadioButtonLayout"
+            android:text="Pikachu"
+
+            />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="Question 6: Write down the name of pikachus evolution."/>
+
+        <EditText
+            android:id="@+id/edit_text_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer here"
+            android:inputType="textCapWords"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit_button_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        android:onClick="submitAnswers"/>
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Score 0/5"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Share Your Result"
+        android:onClick="shareResults"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Try Again"
+        android:onClick="restartActivity"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+</ScrollView>
